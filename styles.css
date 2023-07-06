@@ -36,3 +36,33 @@
 .item:hover{
     color: aqua;
 }
+.banner-img{
+    width: 500px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    /* border: 2px solid gray; */
+    color: aliceblue;
+    background-image: url("./images/background.png"),
+    linear-gradient(90deg,#860303,#2c0303f4);
+    background-size: contain;
+}
+.title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+}
