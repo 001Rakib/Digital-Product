@@ -124,3 +124,21 @@
     padding: 20px;
     background-image: url(./images/background.png),linear-gradient(90deg,#373535,#060505);
 }
+li{
+    list-style: none;
+}
+.end-img{
+    margin-bottom: 20px;
+}
+.end-container{
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    align-items: center;
+    background-color: #2087d5;
+    color: aliceblue;
+    
+}
+.mr{
+    margin-top: 10px;
+}
