@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu-container{
+    background-color: rgb(94, 93, 93);
+    padding: 10px;
+    color: aliceblue;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo-photo{
+    height: 100px;
+    width: 100px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.name{
+    margin: 10px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.menus{
+    display: flex;
+}
+.item{
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.item:hover{
+    color: aqua;
+}
