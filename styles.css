@@ -48,7 +48,9 @@
     color: aliceblue;
     background-image: url("./images/background.png"),
     linear-gradient(90deg,#860303,#2c0303f4);
-    background-size: contain;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .title{
     font-size: 50px;
@@ -65,4 +67,8 @@
     color: aliceblue;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: blue;
 }
